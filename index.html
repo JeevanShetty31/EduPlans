@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduPlan - Your Study Companion</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="particle-system"></div>
+    
+    <nav class="main-nav">
+        <div class="nav-brand">
+            <img src="./edu.png" alt="EduPlan Logo" class="nav-logo">
+            <span>EduPlan</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html" id="homeLink"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="pomodoro.html" id="timerLink"><i class="fas fa-clock"></i> Timer</a></li>
+            <li><a href="planner.html" id="plannerLink"><i class="fas fa-calendar-alt"></i> Planner</a></li>
+            <li><a href="calendar.html" id="calendarLink"><i class="fas fa-calendar-check"></i> Calendar</a></li>
+            <li><a href="compiler.html" id="compilerLink"><i class="fas fa-code"></i> Compiler</a></li>
+            <li><a href="home.html" id="profileLink"><i class="fas fa-user"></i> Profile</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-particles"></div>
+        <div class="hero-content">
+            <h1 class="animated-title">Welcome to <span class="gradient-text">EduPlan</span></h1>
+            <div class="hero-text">
+                <p class="main-subtitle">Your all-in-one study planning and productivity tool</p>
+                <p class="sub-subtitle">Plan your journey with clarity!</p>
+            </div>
+            <div class="hero-buttons">
+                <a href="login.html" class="primary-btn">
+                    <i class="fas fa-rocket"></i>
+                    Get Started
+                </a>
+                <a href="#features" class="secondary-btn">
+                    <i class="fas fa-arrow-down"></i>
+                    Explore Features
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">10K+</span>
+                    <span class="stat-label">Active Users</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50K+</span>
+                    <span class="stat-label">Tasks Completed</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">4.8</span>
+                    <span class="stat-label">User Rating</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="section-header">
+            <h2>Our Features</h2>
+            <p class="section-subtitle">Everything you need to enhance your study experience</p>
+        </div>
+        <div class="feature-cards">
+            <div class="feature-card">
+                <i class="fas fa-clock"></i>
+                <h3>Pomodoro Timer</h3>
+                <p>Stay focused with our customizable Pomodoro timer.</p>
+                <a href="pomodoro.html" class="feature-btn">Try Now</a>
+            </div>
+            
+            <div class="feature-card">
+                <i class="fas fa-calendar-alt"></i>
+                <h3>Planner</h3>
+                <p>Track your schedule and deadlines effectively.</p>
+                <a href="planner.html" class="feature-btn">Open Planner</a>
+            </div>
+            
+            <div class="feature-card">
+                <i class="fas fa-calendar-check"></i>
+                <h3>Calendar</h3>
+                <p>Visualize your schedule and manage events.</p>
+                <a href="calendar.html" class="feature-btn">View Calendar</a>
+            </div>
+            
+            <div class="feature-card">
+                <i class="fas fa-code"></i>
+                <h3>Code Compiler</h3>
+                <p>Write and run code in multiple languages.</p>
+                <div class="language-tags">
+                    <span>Python</span>
+                    <span>C++</span>
+                    <span>Java</span>
+                    <span>C</span>
+                </div>
+                <a href="compiler.html" class="feature-btn">Start Coding</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-content">
+            <h2>Ready to Boost Your Productivity?</h2>
+            <p>Start using EduPlan today and transform your study routine!</p>
+            <a href="home.html" id="ctaButton" class="cta-button">
+                <i class="fas fa-rocket"></i>
+                Get Started
+            </a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 EduPlan. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
